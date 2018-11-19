@@ -1,0 +1,23 @@
+create table filme(
+    idfilme bigint auto_increment,
+    nomefilme varchar(50) not null,
+    diretorfilme varchar(50) not null,
+    anofilme int not null,
+	generofilme varchar(25) not null,
+	positivofilme varchar(200) not null,
+	negativofilme varchar(200) not null,
+	mediafilme varchar(50) not null,
+    primary key(idfilme)
+);
+
+create table serie(
+    idSerie bigint auto_increment,
+    nomeserie varchar(50) not null,
+    diretorserie varchar(50) not null,
+    anoserie int not null,
+	generoserie varchar(25) not null,
+	positivoserie varchar(200) not null,
+	negativoserie varchar(200) not null,
+	mediaserie varchar(50) not null,
+    primary key(idserie)
+)
