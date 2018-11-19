@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro de Pessoa</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div class="container">
+		<h1 class="jumbotron bg bg-info">Cadastro de Pessoa</h1>
+
+		<form name="cadpessoa" method="post" action="controle.php">
+
+			<div class="form-group">
+				<input type="text" name="txtnome" class="form-control" placeholder="Nome">
+				
+			</div>
+			<div class="form-group">
+				<input type="email" name="txtemail" class="form-control" placeholder="Email">				
+			</div>
+				
+			<div class="form-group">
+				<input type="idade" name="txtidade" class="form-control" placeholder="Idade">				
+			</div>	
+			<input type="submit" value="Cadastrar" class="btn btn-primary">			
+		</form>
+		</div>
+	</body>
+</html>
