@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+  </head>
+
+  <body>
+    <h1>Cadastro</h1>
+    <form name="cadastro" action="controle/controle.php" method="post">
+      <div>
+        <input type="text" name="txttitulo" placeholder="Titulo">
+      </div>
+      <div>
+        <input type="text" name="txteditora" placeholder="Editora">
+      </div>
+      <div>
+        <input type="text" name="txtautor" placeholder="Autor">
+      </div>
+      <div>
+        <input type="text" name="txtanolanc" placeholder="Ano de Lançamento">
+      </div>
+      <div>
+        <label>Gênero</label>
+        <select name="selgenero">
+          <option value="Drama">Drama</option>
+          <option value="Suspense">Suspense</option>
+          <option value="Terror">Terror</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+      </div>
+    </form>
+  </body>
+</html>

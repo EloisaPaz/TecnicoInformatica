@@ -1,0 +1,50 @@
+</!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Calculadora</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+		<h1 class="jumbotron">Calculadora</h1>
+
+	<form name="cadpessoa" action="controle.php" method="post">
+		
+		<div class="form-group">
+			<input type="text" name="txtnum1" placeholder="Digite o primeiro número" class="form-control">
+		</div>
+		<div class="form-group">
+			<input type="text" name="txtnum2" placeholder="Digite o segundo número" class="form-control">
+		</div>
+
+		<div class="radio">
+		<label class="radio-inline">
+		<input type="radio" name="rdop" value="somar">
+		Somar</label>
+		</div>
+
+		<div class="radio">
+		<label class="radio-inline">
+		<input type="radio" name="rdop" value="subtrair">
+		Subtrair</label>
+		</div>
+
+		<div class="radio">
+		<label class="radio-inline">
+		<input type="radio" name="rdop" value="dividir">
+		Dividir</label>
+		</div>
+		
+		<div class="radio">
+		<label class="radio-inline">
+		<input type="radio" name="rdop" value="multiplicar">
+		Multiplicar</label>
+		</div>
+
+		<input type="submit" value="Cadastrar" class="btn btn-primary">
+		<input type="reset" value="Limpar" class="btn btn-danger">
+	</form>
+	</div>
+	</body>
+</html>
